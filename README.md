@@ -13,28 +13,29 @@ BeautifulSoup
 pandas
 openpyxl (para exportar a Excel)
 
-(Opcional) SQLAlchemy o sqlite3 para integración con bases de datos
-
 📦 Instalación
 Se debe tener instalado Python, también se puede utilizar jupyter Notebook
 
 
 ⚙️ Uso
-Ejecuta el script principal para iniciar el scraping:
+Ejecuta los scripts para iniciar el scraping
 
 
 📊 Resultados esperados
-Archivo .xlsx con los datos estructurados por ciudad.
+Archivo .csv con los datos estructurados por ciudad.
 Base de datos relacional con las mismas entradas, lista para consultas SQL.
 Posibilidad de análisis y visualización de datos laborales por ciudad.
+
 
 🧠 Consideraciones
 El scraping respeta los lineamientos del sitio y no realiza solicitudes masivas para evitar sobrecarga.
 Los datos están sujetos a cambios en la estructura del sitio, por lo que el script puede requerir mantenimiento si la web es modificada.
 
+
 📄 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
+
 👤 Autor
-Desarrollado con fines profesionales para mejorar habilidades en extracción y análisis de datos.
+Proyecto desarrollado con fines profesionales para mejorar habilidades en extracción y análisis de datos.
 
